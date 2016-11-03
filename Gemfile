@@ -28,3 +28,8 @@ group :test do
   gem 'guard'
   gem 'guard-minitest'
 end
+
+group :production do
+  gem 'rails_12factor', '0.0.2'
+  gem 'puma', '3.1.0'
+end
